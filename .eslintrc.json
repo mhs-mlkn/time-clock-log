@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "standard"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "key-spacing": ["error", { "mode": "minimum", "align": "colon", "beforeColon": true, "afterColon": true }],
+    "no-multi-spaces": ["error", { "exceptions": { "VariableDeclarator": true, "Property": true } }],
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": true }]
+  }
+}
